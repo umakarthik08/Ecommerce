@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
-  font-family: "Poiret One", cursive;
+  font-family: var(--font-poppins);
   font-weight: bold;
 }
 
 .nav-icons
 {
-  padding-left: 540px;
+  padding-left: 500px;
 }
 
 html {
@@ -83,6 +84,12 @@ h3 {
   color: #fd5c63;
 }
 
+.dmarketing
+{
+  color:white;
+  text-decoration:none;
+}
+
 /* our hero sections  */
 
 .hero-text h1 {
@@ -121,11 +128,12 @@ label {
   color: #000;
 }
 
-.btn-style {
+.btn-style1 {
   padding: 12px 25px;
   border: none;
   color: #fff;
   font-size: 15px;
+  border-radius: 5%;
   text-transform: uppercase;
   letter-spacing: 1px;
   border: 2px solid #fff;
@@ -135,6 +143,25 @@ label {
   -o-transition: 0.5s all;
   -ms-transition: 0.5s all;
   transition: 0.5s all;
+  margin-left: -250px;
+}
+
+.btn-style {
+  padding: 12px 25px;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 5%;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid #fff;
+  background: #ec615b;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  transition: 0.5s all;
+  /* margin-left: -250px; */
 }
 
 /* about us style starts  */
@@ -285,8 +312,22 @@ footer p {
     font-size: 2.5rem;
   }
 
+  .hero-text{
+    margin-left: 10px;
+  }
+
+  .btn-style1{
+    margin-left: -195px;
+  }
+
   .hero-text h1 {
     font-size: 3rem;
+  }
+
+  #hero-img
+  {
+    width:100px;
+    height: 300px;
   }
 
   figure {
